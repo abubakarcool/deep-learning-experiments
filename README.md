@@ -36,7 +36,7 @@ deep-learning-projects/
 │   └── [coming soon]
 │
 ├── datasets/
-│   └── test.sql  # optional or temporary data
+│   └── [coming soon] 
 │
 ├── requirements.txt
 └── README.md
