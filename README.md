@@ -23,7 +23,10 @@ deep-learning-projects/
 ├── classical_nlp/
 │   ├── bow.py
 │   ├── tfidf.py
-│   └── n-grams.py
+│   ├── n-grams.py
+|   ├── 2.jpg
+|   ├── 3.1.jpg
+|   ├── 3.2.jpg
 │
 ├── embeddings/
 │   ├── one_Word2Vec.py
