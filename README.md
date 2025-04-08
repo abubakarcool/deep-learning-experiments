@@ -28,6 +28,14 @@ deep-learning-projects/
 |   ├── 3.1.jpg
 |   ├── 3.2.jpg
 │
+├── tabular_classification/
+│   ├── ml5_repurchase_prediction/
+│   │   ├── index.html
+│   │   ├── script.js
+│   │   ├── style.css
+│   │   ├── data.json     # (converted dataset from CSV)
+│   │   └── README.md
+|
 ├── embeddings/
 │   ├── one_Word2Vec.py
 │   ├── word2vec.model
