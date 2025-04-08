@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Purchase Again Prediction</title>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Will the Customer Purchase Again?</h2>
+
+        <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Enter customer age">
+        </div>
+
+        <div class="form-group">
+            <label for="price">Ticket Price ($)</label>
+            <input type="number" id="price" step="0.01" placeholder="Enter ticket price">
+        </div>
+
+        <div class="form-group">
+            <label for="genre">Movie Genre</label>
+            <select id="genre">
+                <option value="Action">Action</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Horror">Horror</option>
+                <option value="Drama">Drama</option>
+                <option value="Sci-Fi">Sci-Fi</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="seat">Seat Type</label>
+            <select id="seat">
+                <option value="Standard">Standard</option>
+                <option value="Premium">Premium</option>
+                <option value="VIP">VIP</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="group">Group or Alone?</label>
+            <select id="group">
+                <option value="Alone">Alone</option>
+                <option value="Group">Group (2-7)</option>
+            </select>
+        </div>
+
+        <button id="predictBtn">Predict</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
